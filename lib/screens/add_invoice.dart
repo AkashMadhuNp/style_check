@@ -142,7 +142,10 @@ class _AddInvoiceState extends State<AddInvoice> {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            InvoiceNo(),
+            Padding(
+              padding: const EdgeInsets.only(right: 20.0,left: 20),
+              child: InvoiceNo(),
+            ),
             SizedBox(height: getResponsiveHeight(context, 10)),
             StoreDetails(screenWidth: screenWidth, screenHeight: screenHeight),
             SizedBox(height: getResponsiveHeight(context, 20)),

@@ -10,7 +10,11 @@ class InvoiceNo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Stack(
       children: [
-        Image.asset("assets/bg.png", height: 100, width: double.infinity),
+        Image.asset(
+          "assets/bg.png", 
+          height: 100, 
+          width: double.infinity
+          ),
         Positioned(
           top: 20,
           left: 50,
